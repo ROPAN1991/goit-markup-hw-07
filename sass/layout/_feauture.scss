@@ -1,0 +1,38 @@
+/* -------FEAUTURE------- */
+
+.feauture{
+    display: flex;
+}
+
+.feauture__item {
+    flex-basis: calc((100% - 90px) /4 );
+    margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
+.feauture__text {
+    line-height: 1.71;
+    color: var(--other-text-color);
+}
+
+.feauture__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+} 
+
+.feauture__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--button-filter-color);
+    height: 120px;
+    margin-bottom: 30px;
+} 
